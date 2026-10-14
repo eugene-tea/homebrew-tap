@@ -3,8 +3,10 @@
 Homebrew casks for [eugene-tea](https://github.com/eugene-tea)'s apps.
 
 ```sh
-brew install --cask eugene-tea/tap/stage-manager
+brew install eugene-tea/tap/stage-manager
 ```
+
+Or tap once (`brew tap eugene-tea/tap`) and use the short name: `brew install stage-manager`.
 
 | Cask | App |
 |---|---|
