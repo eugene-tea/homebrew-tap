@@ -1,6 +1,6 @@
 cask "stage-manager" do
-  version "1.1.0"
-  sha256 "92e68ee4c2c4805d86ca37fb4a98927be86007ba2095ea01c7ddef959816c5eb"
+  version "1.2.0"
+  sha256 "95abf43a7a560608af3246ebbc0ebdbf5177a0ac3854497a71897dde77d39f4c"
 
   url "https://github.com/eugene-tea/stage-manager/releases/download/v#{version}/Stage-Manager.dmg"
   name "Stage Manager"
@@ -14,6 +14,7 @@ cask "stage-manager" do
 
   auto_updates true
   depends_on macos: :sonoma
+  depends_on arch: :arm64
 
   app "Stage Manager.app"
   binary "#{appdir}/Stage Manager.app/Contents/MacOS/stage-manager"
