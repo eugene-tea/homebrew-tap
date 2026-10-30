@@ -1,6 +1,6 @@
 cask "stage-manager" do
-  version "1.4.0"
-  sha256 "533636014da1654e6e015fe53ccad9336ab0b8f22d9e21e9a6650b80001a9638"
+  version "1.5.0"
+  sha256 "324aad96ffa508a55648443b5d1c0e69e8b734786c7ea4752373e6ad8fba25a4"
 
   url "https://github.com/eugene-tea/stage-manager/releases/download/v#{version}/Stage-Manager.dmg"
   name "Stage Manager"
